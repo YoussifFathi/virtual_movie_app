@@ -1,16 +1,9 @@
 # virtual_movie_app
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+UI UX DESIGN
+![img](https://github.com/YoussifFathi/virtual_movie_app/assets/111077052/6cb6cec7-463e-4fa9-91cc-64782573c78b)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+SPLASH SCREEN
+![splash_screen](https://github.com/YoussifFathi/virtual_movie_app/assets/111077052/432886ca-f5e5-40af-88a7-bee242349c15)
