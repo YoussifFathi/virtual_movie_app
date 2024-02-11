@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         fontFamily: GoogleFonts.openSans().fontFamily,
       ),
-      home: const HomeView(),
+      home: const SplashView(),
     );
   }
 }
