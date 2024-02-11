@@ -34,7 +34,7 @@ class CustomGradButton extends StatelessWidget {
           ),
         ),
       ),
-      child: Center(
+      child: const Center(
         child: Text("Sign up",
             style: TextStyle(fontSize: 18, color: ColorsHandler.kWhiteColor)),
       ),

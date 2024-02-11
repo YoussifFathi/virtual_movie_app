@@ -41,6 +41,7 @@ dependencies:
   google_fonts: ^6.1.0
   device_preview: ^1.0.0
   gradient_borders: ^1.0.0
+  widget_mask: ^1.0.0+0
 
 dev_dependencies:
   flutter_test:
