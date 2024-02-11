@@ -5,6 +5,7 @@ import 'package:virtual_movie_app/core/colors_handler.dart';
 import 'package:virtual_movie_app/views/splash_view/widgets/custom_circule_image.dart';
 import 'package:virtual_movie_app/views/splash_view/widgets/custom_color_blur_widget.dart';
 import 'package:virtual_movie_app/views/splash_view/widgets/custom_grad_button.dart';
+import 'package:virtual_movie_app/views/splash_view/widgets/custom_row_dots.dart';
 
 class SplashViewBody extends StatelessWidget {
   const SplashViewBody({super.key});
@@ -39,7 +40,7 @@ class SplashViewBody extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const CustomCirculeImage(),
-                SizedBox(
+                const SizedBox(
                   height: 40,
                 ),
                 Text(
@@ -62,40 +63,19 @@ class SplashViewBody extends StatelessWidget {
                         fontWeight: FontWeight.w600),
                   ),
                 ),
-                SizedBox(height: 20,),
-
-                CustomGradButton(),
-                SizedBox(height: 40,),
-                CustomRowDots()
+                const SizedBox(
+                  height: 20,
+                ),
+                const CustomGradButton(),
+                const SizedBox(
+                  height: 40,
+                ),
+                const CustomRowDots()
               ],
             ),
           ),
         ],
       ),
-    );
-  }
-}
-
-class CustomRowDots extends StatelessWidget {
-  const CustomRowDots({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: List.generate(3, (index) {
-        return Container(
-          margin: EdgeInsets.only(right: 8),
-          width: 8,
-          height: 8,
-          decoration: BoxDecoration(
-            color: index == 0 ? ColorsHandler.kGreenColor :ColorsHandler.kWhiteColor.withOpacity(0.2),
-            borderRadius: BorderRadius.circular(
-              8,
-            ),
-          ),
-        );
-      }),
     );
   }
 }
